@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-    width:400px;
+    width:370px;
     margin: auto;
 }
 
@@ -65,8 +65,8 @@ header .container .navbar #logo a img{
 header .container .navbar .menu{
 
     text-align: center;
-    padding-left:20px;
-    padding-right:50px;
+    padding-left:30px;
+    padding-right:40px;
     
     
     
