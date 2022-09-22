@@ -1,0 +1,100 @@
+@import url(all.min.css);
+
+body{
+    margin:0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width:360px;
+    margin: auto;
+}
+
+h1,h2,h3,h4,h5,h6,p,figure{
+    margin:0;
+ }
+
+
+ .col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+ul{
+    margin:0px;
+    padding:0px;
+ }
+/*style header*/
+
+header{
+    background-image:url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 270px;
+    padding: 10px;
+    position:fixed;
+}
+
+
+
+
+
+header .container .navbar #logo a img{
+    width:50px;
+    height: 25px;
+    margin-left: 44px;
+    position:relative;
+
+
+}
+
+header .container .navbar .menu{
+
+    text-align: center;
+    
+    
+    
+}
+
+
+header .container .navbar .menu nav ul li{
+    list-style-type: none;
+    padding:4px;
+    
+    background-color: #c2c7cc;
+    opacity:0.6;
+   
+    margin: 5px;
+}
+
+
+
+
+
+header .container .navbar .menu nav ul li a{
+    color:#191919;
+    text-decoration: none;
+    font-weight: 600;
+    
+
+    
+}
+
+
+header .container .navbar .menu nav ul li a:hover{
+    color:#6a5e4f;
+}
