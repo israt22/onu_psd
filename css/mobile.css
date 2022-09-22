@@ -79,7 +79,7 @@ header .container .navbar .menu nav ul li{
     
     background-color: #c2c7cc;
     opacity:0.6;
-   
+   border-radius:5px;
     margin: 5px;
 }
 
